@@ -11,6 +11,9 @@ import kotlinx.android.synthetic.main.item.view.*
 class CorteAdaptador(context: Context , resource:Int, objects:ArrayList<Vista>)
     : ArrayAdapter<Vista>(context, resource, objects)
 {
+
+
+    
 //    Definir variables globales para el Item.xml o el Solicitados Activity
     var mi_contexto:Context=context
     var mi_recurso:Int=resource
