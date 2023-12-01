@@ -25,7 +25,7 @@ class CorteAdaptador(context: Context , resource:Int, objects:ArrayList<Vista>)
         mi_vista.TVNOMBREUSUARIO.text = objrest.nombres_usuario
         mi_vista.TVDIRECCION.text = "Dirección: " + objrest.direccion_usuariou
         mi_vista.TVCELULAR.text = "Celular: " + objrest.celular_usuario
-        //
+        ////
         return mi_vista
     }
 }
