@@ -16,6 +16,8 @@ class CorteAdaptador(context: Context , resource:Int, objects:ArrayList<Vista>)
     var mi_recurso:Int=resource
     var mi_lista = objects
 
+
+    
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         var inflador: LayoutInflater = LayoutInflater.from(mi_contexto)
         var mi_vista: View = inflador.inflate(mi_recurso, null)
